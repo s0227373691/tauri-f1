@@ -4,6 +4,7 @@ import { invoke } from "@tauri-apps/api/core";
 import { WebviewWindow } from "@tauri-apps/api/webviewWindow";
 
 import "./App.css";
+import { ChartComponent1 } from './ui/Chart'
 
 
 
@@ -73,6 +74,7 @@ function App() {
   return (
     <main className="container">
       <h1>Welcome to Tauri + React</h1>
+      <ChartComponent1 />
 
       <div className="row">
         <a href="https://vitejs.dev" target="_blank">
